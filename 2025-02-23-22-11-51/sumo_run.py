@@ -24,7 +24,7 @@ def flatten_list(_2d_list):
     return flat_list
 
 
-sumoCmd = ["sumo", "-c", "osm.sumocfg"]
+sumoCmd = ["sumo", "-c", "osm.sumocfg"] # sumo-gui for graphical interface
 traci.start(sumoCmd)
 
 packVehicleData = []
